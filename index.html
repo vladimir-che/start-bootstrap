@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<title>Адаптивный сайт</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container">				
+				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Главная</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">О нас</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Портфолио
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Верстка</a>
+								<a class="dropdown-item" href="#">Дизайн</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="promo">
+			<div class="container centered">
+					<h1 class="promo__title">Добро пожаловать на сайт!</h1>
+					<p class="promo__text">Адаптивный сайт с помощью Bootstrap</p>
+			</div>
+		</section>
+
+		<section class="portfolio">
+			<div class="container">
+				<div class="row centered">
+					<div class="col-lg-4">
+						<p>Первый макет, 3 страницы</p>
+						<p><a href="https://github.com/vladimir-che/ice-ace" target="_blank">Проект на GitHub</a></p>
+						<img class="portfolio-img" src="img/Index.jpg" alt="index">
+					</div>
+					<div class="col-lg-4">
+						<p>Адаптив + Jquery</p>
+						<p><a href="https://github.com/vladimir-che/belka" target="_blank">Проект на GitHub</a></p>
+						<img class="portfolio-img" src="img/320.jpg" alt="index">
+					</div>
+					<div class="col-lg-4">
+						<p>Тестовое задание</p>
+						<p><a href="https://github.com/vladimir-che/expert" target="_blank">Проект на GitHub</a></p>
+						<img class="portfolio-img" src="img/expert.jpg" alt="index">
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="social centered">
+					<a href="https://github.com/vladimir-che" class="social__img" target="_blank"><i class="fa fa-github"></i></a>
+					<a href="https://vk.com/vova_che" class="social__img" target="_blank"><i class="fa fa-vk"></i></a>
+					<a href="mailto:vladimir_che@list.ru" class="social__img" target="_blank"><i class="fa fa-envelope-o "></i></a>
+				</div>
+			</div>
+		</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</body>
+</html>
