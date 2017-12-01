@@ -1,88 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<title>Адаптивный сайт</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
+<head>
+	<meta charset="UTF-8">
+	<title>Daisy Landing</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+			  <a class="navbar-brand" href="#"><img src="img/logo-header.png" alt="logo"><span class="logo-text">Daisy</span></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">О нас</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Портфолио</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Сервис</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Контакты</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
 
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
-			<div class="container">				
-				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Главная</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">О нас</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Портфолио
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Верстка</a>
-								<a class="dropdown-item" href="#">Дизайн</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Контакты</a>
-						</li>
-					</ul>
+			<div class="header__title">
+				<h1><span class="red--text">Clients</span> in your business</h1>
+				<p>Your clients on the internet. Learn how to receive them.</p>
+				<button class="btn">I want clients</button>				
+			</div>
+			<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+		</div>
+	</header>
+
+	<section class="plus">
+		<div class="container">
+			<h2>What can <span class="red--text">you receive?</span></h2>
+			<p class="plus__title">Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
+			<div class="plus__row row">
+				<div class="col-lg-3">
+					<img src="img/clients.png" alt="clients">
+					<h3>clients</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/branding.png" alt="branding">
+					<h3>branding</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/marketing.png" alt="marketing">
+					<h3>marketing</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/adw.png" alt="adv.">
+					<h3>adv.</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
 				</div>
 			</div>
-		</nav>
+			<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+		</div>
+	</section>
 
-		<section class="promo">
-			<div class="container centered">
-					<h1 class="promo__title">Добро пожаловать на сайт!</h1>
-					<p class="promo__text">Адаптивный сайт с помощью Bootstrap</p>
+	<section class="expand">
+		<div class="container">
+			<div class="expand__border">
+				<h2><span class="red--text">Expand</span> your business</h2>
+				<button class="btn">Join Us</button>
 			</div>
-		</section>
+			<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+		</div>
+	</section>
 
-		<section class="portfolio">
-			<div class="container">
-				<div class="row centered">
-					<div class="col-lg-4">
-						<p>Первый макет, 3 страницы</p>
-						<p><a href="https://github.com/vladimir-che/ice-ace" target="_blank">Проект на GitHub</a></p>
-						<img class="portfolio-img" src="img/Index.jpg" alt="index">
+	<section class="process">
+		<div class="container">
+			<h2>Our <span class="red--text">process</span></h2>
+			<p class="process__title">Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
+			<img src="img/process.png" alt="step-process">
+			<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+		</div>
+	</section>
+
+	<section class="device">
+		<div class="container">
+			<div class="left">
+				<h2>what do <span class="red--text">we do?</span></h2>
+				<div class="row device__row">
+					<div class="col-lg-6 device__content">
+					<p class="device__content-title">Landing Pages</p>
+					<p class="device__content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam </p>
+					<button class="btn red-btn">More details</button>
 					</div>
-					<div class="col-lg-4">
-						<p>Адаптив + Jquery</p>
-						<p><a href="https://github.com/vladimir-che/belka" target="_blank">Проект на GitHub</a></p>
-						<img class="portfolio-img" src="img/320.jpg" alt="index">
+					<div class="col-lg-6 device__img">
+						<img src="img/Large Devices.png" alt="Large Devices">
 					</div>
-					<div class="col-lg-4">
-						<p>Тестовое задание</p>
-						<p><a href="https://github.com/vladimir-che/expert" target="_blank">Проект на GitHub</a></p>
-						<img class="portfolio-img" src="img/expert.jpg" alt="index">
-					</div>
-				</div>				
+				</div>
+				<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
 			</div>
-		</section>
+			<div class="right">
+				<div class="row device__row">
+					<div class="col-lg-6 device__img">
+						<img src="img/MacBookPro.png" alt="MacBook">
+					</div>
+					<div class="col-lg-6 device__content device__content--right">
+					<p class="device__content-title device__content-title--right">Advertising</p>
+					<p class="device__content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam </p>
+					<button class="btn red-btn">More details</button>
+					</div>					
+				</div>
+				<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+			</div>
+			<div class="left">
+				<div class="row device__row">
+					<div class="col-lg-6 device__content">
+					<p class="device__content-title">marketing kit</p>
+					<p class="device__content-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam </p>
+					<button class="btn red-btn">More details</button>
+					</div>
+					<div class="col-lg-6 device__img">
+						<img src="img/book.png" alt="Large Devices">
+					</div>
+				</div>
+				<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+			</div>
+		</div>
+	</section>
 
-		<footer>
-			<div class="container">
-				<div class="social centered">
-					<a href="https://github.com/vladimir-che" class="social__img" target="_blank"><i class="fa fa-github"></i></a>
-					<a href="https://vk.com/vova_che" class="social__img" target="_blank"><i class="fa fa-vk"></i></a>
-					<a href="mailto:vladimir_che@list.ru" class="social__img" target="_blank"><i class="fa fa-envelope-o "></i></a>
+	<section class="team">
+		<div class="container">
+			<h2>our <span class="red--text">team</span></h2>
+			<div class="row team__row">
+				<div class="col-lg-4">
+					<img src="img/bowman.png" alt="bowman">
+					<p class="row__name"><span class="red--text">Tomothy</span> Bowman</p>
+					<p class="row__spicial">Marketing</p>
+					<div class="social-icon">
+						<a href="#"><img src="img/tw.png" alt="twitter"></a>
+						<a href="#"><img src="img/fb.png" alt="fb"></a>
+						<a href="#"><img src="img/in.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<img src="img/tracy.png" alt="tracy">
+					<p class="row__name"><span class="red--text">Steve</span> Tracy</p>
+					<p class="row__spicial">CEO</p>
+					<div class="social-icon">
+						<a href="#"><img src="img/tw.png" alt="twitter"></a>
+						<a href="#"><img src="img/fb.png" alt="fb"></a>
+						<a href="#"><img src="img/in.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<img src="img/johns.png" alt="johns">
+					<p class="row__name"><span class="red--text">Hellen</span> Johns</p>
+					<p class="row__spicial">Clients</p>
+					<div class="social-icon">
+						<a href="#"><img src="img/tw.png" alt="twitter"></a>
+						<a href="#"><img src="img/fb.png" alt="fb"></a>
+						<a href="#"><img src="img/in.png" alt=""></a>
+					</div>
 				</div>
 			</div>
-		</footer>
+			<a class="slider-down" href="#"><img src="img/slider-down.png" alt="slider-down"></a>
+		</div>
+	</section>
+	
+	<footer>
+		<img src="img/footer-logo.png" alt="footer logo">
+		<p>Daisy</p>
+	</footer>
 
 
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	</body>
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 </html>

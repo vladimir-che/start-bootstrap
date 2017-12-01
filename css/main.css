@@ -1,0 +1,336 @@
+body {
+	color: #868686;
+}
+
+
+.btn {
+	background-color: transparent;
+	border: 2px solid #fc635e;
+	color: #fc635e;
+	padding: 10px 25px;
+	margin: 0 auto;
+}
+
+.red-btn {
+	color: #fff;
+	background-color: #fc635e;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+.red--text {
+	color: #fc635e;
+}
+
+.container {
+	text-align: center;
+}
+
+header {
+	background-image: url(../img/bg-header.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+}
+
+h2 {
+	margin-top: 68px;
+	margin-bottom: 17px;
+	padding-bottom: 13px;
+	text-transform: uppercase;
+	font-size: 51px;
+}
+
+.slider-down {
+	display: block;
+}
+
+.navbar-toggler-icon {
+	background-image: url(../img/if_menu-alt_134216.png);
+}
+
+.logo-text	{
+	padding-left: 16px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.nav-item {
+	text-transform: uppercase;
+	margin-right: 45px;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #fc635e;
+	border-bottom: 2px solid #fc635e;
+	padding-bottom: 3px;
+}
+
+.header__title {
+	margin-top: 180px;
+	margin-bottom: 238px;
+	text-align: center;
+	color: #fff;
+}
+
+.header__title h1 {
+	text-transform: uppercase;
+	font-size: 51px;/*
+	position: relative;*/
+}
+
+.header__title p {
+	font-size: 24px;
+	margin-bottom: 47px;
+}
+
+.header__title h1:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 12px;
+	margin-right: 10px;
+	background-image: url(../img/line.jpg);
+	width: 107px;
+	height: 8px;
+}
+
+.header__title h1:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 12px;
+	margin-left: 10px;
+	background-image: url(../img/line.jpg);
+	width: 107px;
+	height: 8px;
+}
+
+
+
+
+
+
+/*Секция плюсов*/
+
+
+
+.plus {
+	text-align: center;
+	min-height: 576px}
+
+.plus h2 {
+	display: inline-block;
+	margin-top: 68px;
+	margin-bottom: 17px;
+	padding-bottom: 13px;
+	border-bottom: 2px solid #868686;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.plus__title {
+	padding: 0 280px;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+
+
+h3 {
+	position: relative;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.plus__row {
+	margin-bottom: 50px;
+}
+
+.col-lg-3 p {
+	margin-top: 40px;
+}
+
+
+/*Секция Expand*/
+
+
+
+
+.expand {
+	min-height: 576px;
+	background-image: url(../img/expand.jpg);
+	padding-top: 90px;
+}
+
+.expand__border {
+	padding: 126px 146px;
+	padding-bottom: 97px;
+	border: 8px solid #455965;
+	margin-bottom: 50px;
+}
+
+.expand__border h2 {
+	margin-top: 0;
+}
+
+.expand button {
+	padding: 10px 60px;
+}
+
+
+
+
+/*Секция процесс*/
+
+
+
+.process h2 {
+	display: inline-block;
+	margin-top: 68px;
+	margin-bottom: 17px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #868686;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.process__title {
+	padding: 0 280px;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+
+
+
+
+
+/*Секция Девайсы*/
+
+
+.device {
+	background-color: #f2f2f2;
+	min-height: 590px;
+}
+
+.device__row {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.device h2 {
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 12px;
+	border-bottom: 2px solid #868686;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.device__content {
+	text-align: left;
+	margin-top: 35px;
+}
+
+.device__content-title {
+	font-size: 28px;
+	text-transform: uppercase;
+	padding-left: 12px;
+	border-left: 10px solid #fc635e;
+}
+
+.device__content-text {
+	margin-bottom: 40px;
+	font-size: 15px;
+	color: #9e9898;
+}
+
+.right {
+	background-color: transparent;
+}
+
+.device__content--right {
+	text-align: right;
+}
+
+.device__content-title--right {
+	padding-right: 12px;
+	border-right: 10px solid #fc635e;
+	padding-left: 0;
+	border-left: none;
+}
+
+
+
+
+
+/*Секция комманда*/
+
+
+.team__row {
+	margin-bottom: 65px;
+}
+
+.row__name {
+	font-size: 28px;
+	padding-top: 25px;
+}
+
+.row__spicial {
+	font-size: 20px;
+}
+
+.social-icon a {
+	padding: 0 10px;
+}
+
+.team h2 {
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 65px;
+	border-bottom: 2px solid #868686;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+
+footer {
+	text-align: center;
+	background-image: url(../img/footer-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 210px;
+}
+
+footer img {
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+footer p {
+	margin-top: 105px;
+	padding-left: 15px;
+	display: inline-block;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+
+
+@media (max-width: 990px) {
+  .header__title h1:after {
+  	display: none;
+  }
+  .header__title h1:before {
+  	display: none;
+  }
+}
